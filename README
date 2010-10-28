@@ -23,7 +23,6 @@ THE SOFTWARE.
 == SimpleChat
 
 My purpose creating this project is not to show how to create a simple chat, but to show how to create a project that combines Ruby on Rails as the web framework, Heroku as the PaaS and MongoHG as the NoSQL database storing service.
-Use it
 
 
 == Getting Started
