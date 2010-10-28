@@ -5,7 +5,7 @@ class User
   field :imgurl
   references_many :message
   
-  # Overwrite the save function
+  # Overwrite the save method
   def save
     if userExists(self.name)
       return false

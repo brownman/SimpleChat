@@ -17,9 +17,8 @@ class UserController < ApplicationController
     # create a user
     @user = User.new(:name => name, :password => password, :imgurl => imgurl)
     @user.encryptPassword
-    puts @user.password
     # save it if there is no other user with the same name
-    if @user.save
+    if name != '' and password != '' and @user.save
       session[:name]=name
       redirect_to "/chat/"
     else
