@@ -1,9 +1,9 @@
 defaults: &defaults
   host: flame.mongohq.com
-  port: 27020
+  port: 27074
   username: guest
   password: 1234abcd
-  database: earth
+  database: simplechat
 
 development:
   <<: *defaults
