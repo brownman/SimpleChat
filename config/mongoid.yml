@@ -1,0 +1,15 @@
+defaults: &defaults
+  host: flame.mongohq.com
+  port: 27020
+  username: guest
+  password: 1234abcd
+  database: earth
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
